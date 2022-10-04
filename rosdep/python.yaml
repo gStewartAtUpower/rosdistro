@@ -7474,6 +7474,13 @@ python3-mycroft-messagebus-client-pip:
   ubuntu:
     pip:
       packages: [mycroft-messagebus-client]
+python3-mycroft-plugin-tts-mimic3-pip:
+  debian:
+    pip:
+      packages: ["mycroft-plugin-tts-mimic3[all]"]
+  ubuntu:
+    pip:
+      packages: ["mycroft-plugin-tts-mimic3[all]"]
 python3-mypy:
   alpine: [py3-mypy]
   arch: [mypy]
@@ -8115,6 +8122,13 @@ python3-pyee:
   debian: [python3-pyee]
   opensuse: [python3-pyee]
   ubuntu: [python3-pyee]
+python3-pyee8-pip:
+  debian:
+    pip:
+      packages: ["pyee==8.1.0"]
+  ubuntu:
+    pip:
+      packages: ["pyee==8.1.0"]
 python3-pyftdi-pip:
   debian:
     pip:
