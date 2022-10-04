@@ -8122,13 +8122,6 @@ python3-pyee:
   debian: [python3-pyee]
   opensuse: [python3-pyee]
   ubuntu: [python3-pyee]
-python3-pyee8-pip:
-  debian:
-    pip:
-      packages: ["pyee==8.1.0"]
-  ubuntu:
-    pip:
-      packages: ["pyee==8.1.0"]
 python3-pyftdi-pip:
   debian:
     pip:
