@@ -1,0 +1,14 @@
+python3-pyee8-pip:
+  debian:
+    pip:
+      packages: ["pyee==8.1.0"]
+  ubuntu:
+    pip:
+      packages: ["pyee==8.1.0"]
+python3-mycroft-plugin-tts-mimic3-pip:
+  debian:
+    pip:
+      packages: ["mycroft-plugin-tts-mimic3[all]"]
+  ubuntu:
+    pip:
+      packages: ["mycroft-plugin-tts-mimic3[all]"]

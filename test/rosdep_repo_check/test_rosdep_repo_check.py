@@ -96,7 +96,7 @@ class TestRosdepRepositoryCheck(unittest.TestCase):
         if not cls._changed_lines:
             raise unittest.SkipTest('No rosdep changes were detected')
 
-        for path in ('rosdep/base.yaml', 'rosdep/python.yaml'):
+        for path in ('rosdep/base.yaml', 'rosdep/python.yaml', 'rosdep/mycroft_deps_workaround.yaml'):
             if path not in cls._changed_lines:
                 continue
             with open(os.path.join(cls._repo_root, path)) as f:

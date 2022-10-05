@@ -7474,13 +7474,6 @@ python3-mycroft-messagebus-client-pip:
   ubuntu:
     pip:
       packages: [mycroft-messagebus-client]
-python3-mycroft-plugin-tts-mimic3-pip:
-  debian:
-    pip:
-      packages: ["mycroft-plugin-tts-mimic3[all]"]
-  ubuntu:
-    pip:
-      packages: ["mycroft-plugin-tts-mimic3[all]"]
 python3-mypy:
   alpine: [py3-mypy]
   arch: [mypy]

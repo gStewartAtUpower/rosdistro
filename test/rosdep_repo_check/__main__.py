@@ -40,7 +40,7 @@ def main():
 
     repo_root = os.path.join(os.path.dirname(__file__), '..', '..')
 
-    for path in ('rosdep/base.yaml', 'rosdep/python.yaml'):
+    for path in ('rosdep/base.yaml', 'rosdep/python.yaml', 'rosdep/mycroft_deps_workaround.yaml'):
         print("Verify all rosdep keys in '%s'" % path)
         with open(os.path.join(repo_root, path)) as f:
             data = yaml.safe_load(f)
